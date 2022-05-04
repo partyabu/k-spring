@@ -9,9 +9,4 @@
     <!--递归扫描指定的包装配到容器-->
     <context:component-scan base-package="com.abucloud"/>
 
-
-    <bean id="stuEntity" class="com.abucloud.entity.StuEntity">
-    </bean>
-
-
 </beans>

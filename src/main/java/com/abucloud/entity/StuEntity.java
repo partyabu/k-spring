@@ -13,6 +13,15 @@ public class StuEntity {
         this.age = age;
     }
 
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        System.out.println("属性赋值");
+        this.age = age;
+    }
+
     public StuEntity() {
     }
 
@@ -21,5 +30,13 @@ public class StuEntity {
         return "StuEntity{" +
                 "age=" + age +
                 '}';
+    }
+
+    public void initMethodOne() {
+        System.out.println("stuEntity initMethodOne");
+    }
+
+    public void destroyMethodOne() {
+        System.out.println("stuEntity destroyMethodOne");
     }
 }
