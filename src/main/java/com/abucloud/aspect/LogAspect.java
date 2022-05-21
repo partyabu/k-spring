@@ -3,12 +3,10 @@ package com.abucloud.aspect;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
-@EnableAspectJAutoProxy
-@Configuration
-@Aspect
+// @EnableAspectJAutoProxy
+// @Configuration
+// @Aspect
 public class LogAspect {
 
 

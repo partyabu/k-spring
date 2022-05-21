@@ -1,5 +1,6 @@
 package com.abucloud.service;
 
+import com.abucloud.aspect.Perms;
 import com.abucloud.service.impl.UserService;
 import org.springframework.stereotype.Service;
 
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserServiceImpl implements UserService {
 
+    @Perms(value = "one")
     @Override
     public void eatFruit() {
         System.out.println("eating");

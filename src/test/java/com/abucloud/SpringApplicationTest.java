@@ -1,6 +1,6 @@
 package com.abucloud;
 
-import com.abucloud.entity.StuEntity;
+import com.abucloud.service.impl.UserService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -12,17 +12,17 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class SpringApplicationTest {
 
-  /*  @Test
+    @Test
     public void testAop() {
         ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
         UserService userService = ac.getBean("userServiceImpl", UserService.class);
         userService.eatFruit();
-    }*/
-
-
-    @Test
-    public void test01() {
-        ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
-        ac.getBean(StuEntity.class);
     }
+
+    //
+    // @Test
+    // public void test01() {
+    //     ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
+    //     ac.getBean(StuEntity.class);
+    // }
 }
