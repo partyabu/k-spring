@@ -18,11 +18,4 @@ public class SpringApplicationTest {
         UserService userService = ac.getBean("userServiceImpl", UserService.class);
         userService.eatFruit();
     }
-
-    //
-    // @Test
-    // public void test01() {
-    //     ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
-    //     ac.getBean(StuEntity.class);
-    // }
 }
